@@ -1,0 +1,11 @@
+#include <string>
+#include <iostream>
+int main()
+{
+int A,B;
+std::cout << "vvedite cifra\n";
+std::cin >> A >> B;
+std::cout << A + B;
+return 0;
+}
+
