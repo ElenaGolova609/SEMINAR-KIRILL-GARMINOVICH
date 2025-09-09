@@ -1,41 +1,11 @@
-# Prerequisites
-*.d
+#include <string>
+#include <iostream>
+int main()
+{
+int A,B;
+std::cout << "vvedite cifra\n";
+std::cin >> A >> B;
+std::cout << A + B;
+return 0;
+}
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
