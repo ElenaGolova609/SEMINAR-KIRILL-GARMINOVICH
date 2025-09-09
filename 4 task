@@ -1,0 +1,11 @@
+#include <string>
+#include <iostream>
+
+int main()
+{
+    int  A,B;
+    std::cout << "Vvedite chisla, snachalo Skorost potom Vremya\n";
+    std::cin >> A >> B;
+    std::cout << (109 - (A * B));
+    return 0;
+}
