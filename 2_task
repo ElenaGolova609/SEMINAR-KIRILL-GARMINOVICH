@@ -1,0 +1,13 @@
+#include <string>
+#include <iostream>
+int main()
+{
+    std::cout << " vvedite chisla\n ";
+    int A,B;
+    std::cin >> A >> B;
+    std::cout << A + B << " ";
+    std::cout << A - B << " ";
+    std::cout << A / B << " ";
+    std::cout << A * B << " ";
+    return 0;
+}
