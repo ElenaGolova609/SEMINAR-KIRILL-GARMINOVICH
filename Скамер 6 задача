@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+
+int main(){
+    int chislo,limit,x;
+    x = 1;
+    std::cout<< "Сколько он отмыл в первый день?\n";
+    std::cin>>chislo;
+    std::cout<< "Какой лимит?\n";
+    std::cin>>limit;
+        while(chislo <= limit){
+        chislo = chislo + (chislo * 0.1);
+        x++;
+    }
+        std::cout << "Им заинтересуются на " << x <<  " день\n";
+        return 0;
+        
+}
+    
+        
+        
+  
